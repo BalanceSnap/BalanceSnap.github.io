@@ -66,9 +66,30 @@ Before starting, make sure you have the following installed:
 
 ---
 
-## Deploying on Vercel
+## Deployment
 
-The fastest way to deploy Finwise is on [Vercel](https://vercel.com/). Simply click the "Deploy with Vercel" button at the top of this README, or check the [Next.js deployment docs](https://vercel.com/docs/deployments/deployment-methods) for other deployment options.
+### Deploying on GitHub Pages
+
+This template is configured for static site generation and can be deployed to GitHub Pages:
+
+1. **Enable GitHub Pages**:
+   - Go to your repository settings
+   - Navigate to "Pages" in the sidebar
+   - Under "Build and deployment", select "GitHub Actions" as the source
+
+2. **Configure base path** (if using a project page):
+   - Open `next.config.mjs`
+   - Uncomment and set `basePath: '/your-repo-name'` to match your repository name
+   - For user/organization pages (username.github.io), leave basePath commented out
+
+3. **Deploy**:
+   - Push to the `main` branch
+   - The GitHub Action will automatically build and deploy your site
+   - Your site will be available at `https://username.github.io/repo-name/`
+
+### Deploying on Vercel
+
+Alternatively, you can deploy on [Vercel](https://vercel.com/). Simply click the "Deploy with Vercel" button at the top of this README, or check the [Next.js deployment docs](https://vercel.com/docs/deployments/deployment-methods) for other deployment options.
 
 ---
 
