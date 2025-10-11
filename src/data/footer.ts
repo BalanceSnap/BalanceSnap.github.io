@@ -7,23 +7,23 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
+    subheading: "Check all your credit card balances in seconds, not minutes.",
     quickLinks: [
         {
-            text: "Features",
+            text: "How it Works",
             url: "#features"
         },
         {
-            text: "Pricing",
-            url: "#pricing"
+            text: "FAQ",
+            url: "#faq"
         },
         {
-            text: "Testimonials",
-            url: "#testimonials"
+            text: "Join Waitlist",
+            url: "#cta"
         }
     ],
-    email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
+    email: 'hello@balancesnap.com',
+    telephone: '',
     socials: {
         // github: 'https://github.com',
         // x: 'https://twitter.com/x',
