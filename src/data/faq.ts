@@ -4,22 +4,22 @@ import { siteDetails } from "./siteDetails";
 export const faqs: IFAQ[] = [
     {
         question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
+        answer: 'Yes. We use bank-level security and never store your login credentials. Your data is encrypted and protected with the same standards used by major financial institutions.',
     },
     {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
+        question: 'How much will it cost?',
+        answer: "We're still figuring out pricing. Early adopters will get a significant discount. Join the waitlist to be the first to know.",
     },
     {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
+        question: `When will ${siteDetails.siteName} be ready?`,
+        answer: "We're building it now. Waitlist members will be the first to know and get early access when we launch."
     },
     {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
+        question: 'What if I use a specific budgeting tool?',
+        answer: `${siteDetails.siteName} is designed to work with whatever system you already use. We're not trying to replace your spreadsheet or budgeting app—we just give you the total balance number you need.`,
     },
     {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
+        question: 'Which credit cards will you support?',
+        answer: `We're determining which banks to support first based on what people actually use. When you join the waitlist, we'll ask which cards you have so we can prioritize the right integrations.`
     }
 ];
