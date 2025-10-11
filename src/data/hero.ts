@@ -1,5 +1,5 @@
 export const heroDetails = {
-    heading: 'Smart, Secure, Simple Financial Management',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
+    heading: 'Tired of logging into every credit card to check your balance?',
+    subheading: 'BalanceSnap shows your total credit card balance—including pending transactions—in seconds, not minutes.',
     centerImageSrc: '/images/hero-mockup.webp',
 }
