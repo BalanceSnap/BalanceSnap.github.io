@@ -22,7 +22,7 @@ export const footerDetails: {
             url: "#cta"
         }
     ],
-    email: 'hello@balancesnap.com',
+    email: 'contact@balancesnap.com',
     telephone: '',
     socials: {
         // github: 'https://github.com',
