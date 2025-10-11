@@ -1,72 +1,55 @@
-import { FiBarChart2, FiBriefcase, FiDollarSign, FiLock, FiPieChart, FiShield, FiTarget, FiTrendingUp, FiUser } from "react-icons/fi";
+import { FiClock, FiCreditCard, FiRefreshCw, FiLock, FiZap, FiCopy } from "react-icons/fi";
 
 import { IBenefit } from "@/types"
 
 export const benefits: IBenefit[] = [
     {
-        title: "Smart Budgeting",
-        description: "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
+        title: "If you have multiple credit cards, you know the pain",
+        description: "Checking your total credit card balance shouldn't feel like a part-time job. But if you manage 3+ cards, you know the drill:",
         bullets: [
             {
-                title: "Intelligent Categorization",
-                description: "Automatically sorts your transactions for crystal-clear insights.",
-                icon: <FiBarChart2 size={26} />
+                title: "Log into Chase. Check each card.",
+                description: "Navigate through multiple accounts, wait for pages to load, write down the numbers.",
+                icon: <FiCreditCard size={26} />
             },
             {
-                title: "Customizable Goals",
-                description: "Set and track financial objectives that matter to you.",
-                icon: <FiTarget size={26} />
+                title: "Log into Amex. Check each card.",
+                description: "Repeat the process. Hope you didn't forget your password again.",
+                icon: <FiCreditCard size={26} />
             },
             {
-                title: "Predictive Analysis",
-                description: "Get ahead of your finances with spending forecasts and alerts.",
-                icon: <FiTrendingUp size={26} />
+                title: "Log into Discover. Check each card.",
+                description: "15-20 minutes later, you finally have your total. Copy it into your spreadsheet or budgeting tool.",
+                icon: <FiClock size={26} />
+            },
+            {
+                title: "Repeat every few days",
+                description: "To stay on top of spending, you do this all over again in a few days.",
+                icon: <FiRefreshCw size={26} />
             }
         ],
         imageSrc: "/images/mockup-1.webp"
     },
     {
-        title: "Seamless Investing",
-        description: "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
+        title: "What if checking all your balances took 30 seconds?",
+        description: "We're building BalanceSnap to solve exactly this problem. Here's what it does:",
         bullets: [
             {
-                title: "Micro-Investing",
-                description: "Begin with as little as $1 and watch your money grow.",
-                icon: <FiDollarSign size={26} />
-            },
-            {
-                title: "Expert Portfolios",
-                description: "Choose from investment strategies tailored to your risk tolerance.",
-                icon: <FiBriefcase size={26} />
-            },
-            {
-                title: "Real-Time Performance",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
-                icon: <FiPieChart size={26} />
-            }
-        ],
-        imageSrc: "/images/mockup-2.webp"
-    },
-    {
-        title: "Bank-Grade Security",
-        description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
-        bullets: [
-            {
-                title: "Military-Grade Encryption",
-                description: "Your information is safeguarded with the highest level of encryption.",
+                title: "Connects to your credit cards securely",
+                description: "Bank-level security. We never store your login credentials.",
                 icon: <FiLock size={26} />
             },
             {
-                title: "Biometric Authentication",
-                description: "Access your account securely with fingerprint or facial recognition.",
-                icon: <FiUser size={26} />
+                title: "Shows your total balance instantly",
+                description: "Including pending transactions, not just posted balances.",
+                icon: <FiZap size={26} />
             },
             {
-                title: "Real-Time Fraud Detection",
-                description: "Our system constantly monitors for suspicious activity to keep your money safe.",
-                icon: <FiShield size={26} />
+                title: "Copy and go",
+                description: "One number. One click to copy. That's it. Use it with whatever budgeting system you already have.",
+                icon: <FiCopy size={26} />
             }
         ],
-        imageSrc: "/images/mockup-1.webp"
+        imageSrc: "/images/mockup-2.webp"
     },
 ]
