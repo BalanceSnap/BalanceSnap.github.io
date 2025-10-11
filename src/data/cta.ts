@@ -1,6 +1,6 @@
 export const ctaDetails = {
-    heading: 'Join Over 1 Million Users To Transform Your Finances',
-    subheading: 'Your journey to financial freedom starts here. Download Finwise today and take the first step towards a brighter financial future!',
+    heading: 'Want to be part of building BalanceSnap?',
+    subheading: "Join the waitlist. Share your feedback. Get early access. The first 100 people on the waitlist will get lifetime early adopter pricing when we launch.",
     appStoreUrl: '#',
     googlePlayUrl: '#'
 }
