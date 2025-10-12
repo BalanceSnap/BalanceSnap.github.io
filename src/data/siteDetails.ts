@@ -7,6 +7,6 @@ export const siteDetails = {
     },
     language: 'en-us',
     locale: 'en-US',
-    siteLogo: `${process.env.BASE_PATH || ''}/images/logo-balancesnap.png`,
+    siteLogo: `${process.env.BASE_PATH || ''}/images/logo-balancesnap.svg`,
     googleAnalyticsId: '', // e.g. G-XXXXXXX,
 }
