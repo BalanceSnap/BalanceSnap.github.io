@@ -4,9 +4,10 @@ const nextConfig = {
   images: {
     unoptimized: true, // Required for static export
   },
-  // Base path for GitHub Pages (will be your repo name)
-  // Uncomment and set this to your repo name if deploying to a project page
-  // basePath: '/your-repo-name',
+
+  // Base path for GitHub Pages - set to repo name for project pages
+  // Remove or set to '' if deploying to https://balancesnap.github.io directly
+  basePath: '/BalanceSnap-Website',
 
   // Explicitly set the workspace root to silence Next.js warning about multiple lockfiles
   outputFileTracingRoot: process.cwd(),
