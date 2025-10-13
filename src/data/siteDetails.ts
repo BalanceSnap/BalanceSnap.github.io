@@ -1,6 +1,6 @@
 export const siteDetails = {
     siteName: 'BalanceSnap',
-    siteUrl: 'https://balancesnap.com/',
+    siteUrl: 'https://balancesnap.github.io',
     metadata: {
         title: 'BalanceSnap - Check All Your Credit Card Balances in Seconds',
         description: 'Stop logging into multiple credit card accounts. BalanceSnap shows your total balance—including pending transactions—in one click.',
