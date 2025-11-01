@@ -20,6 +20,10 @@ export const footerDetails: {
         {
             text: "Join Waitlist",
             url: "#cta"
+        },
+        {
+            text: "Privacy Policy",
+            url: "/privacy-policy"
         }
     ],
     email: 'contact@balancesnap.com',
